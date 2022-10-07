@@ -1,0 +1,165 @@
+html,* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a { 
+    color:#eaeaea;
+    text-decoration: none;
+} 
+
+.logo {
+    margin-right: auto;
+    margin-left: 15px;
+    transition: all .5s ease 0s;
+}
+
+.logo:hover {
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    padding: 20px;
+
+}
+header {
+    background: #004261;
+    color:#eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-menu {
+    width: 15vh;
+    height: auto;
+}
+.ctn-bta {
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    background: orangered;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.ctn-bta:hover {
+    color:#004261;
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li a {
+   transition: all .5s ease 0s;
+    display: inline-block;
+    font-family: Helvetica;
+}
+li a:hover {
+    color: red;
+    transform: rotate(2deg);
+}
+
+p {
+    font-family: Segoe UI;
+}
+.title { 
+    display: flex;
+    font-weight: bold;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    font-weight: bolder;
+    font-size: 32;
+    justify-content: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intreo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    width: 50vh;
+    height: auto;
+    transition: all .5s ease 0s;
+    border-radius: 2vh;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	}
+
+.card-item {
+    text-align: center;
+    width: 	auto;
+    background:	#f7f7f7;
+    color:	#222;
+    padding:	20px;
+    box-shadow:	2px 5px 5px 2px rgba(0,0,0,0.5);
+    border-radius: 2vh;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.mid-logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:	#222;
+    padding:	20px;
+}
+
+.mid-logo2 {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+}
+
+.pngprofile {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    width: 50vh;
+    height: auto;
+}
+
+.story {
+    margin-right: 50vh;
+    margin-left: 50vh;
+    justify-items: center;
+    background-color: #b0b0b0;
+    padding: 5vh;
+}
